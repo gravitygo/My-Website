@@ -1,3 +1,60 @@
 body{
 	background: rgb(25, 30, 35);
 }
+a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+h1{
+	color: rgb(255, 255, 255);
+}
+.active{
+	border-radius: 3px;
+	border-bottom-style: solid;
+	border-color: rgb(75, 80, 225);
+}
+.page{
+	align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex: none;
+    width: 100%;
+    max-width: 1000px
+}
+
+.header-container{
+	position: sticky;
+	display: flex;
+	flex: nowrap;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	height: 50px;
+	flex-direction: row;
+}
+
+.header-name{}
+
+.header-nav{
+	display: flex;
+	flex: nowrap;
+	flex-direction: row;
+}
+.header-nav-list{
+	flex: none;
+	display: flex;
+	align-items: stretch;
+	position: relative;
+	padding: 10px;
+	margin: 10px;
+}
+
+.header-nav-list:hover{
+	border-radius: 3px;
+	background: rgb(75, 75, 75);
+}
+
+.intro{
+	position: relative;
+}
+
