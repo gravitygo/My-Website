@@ -1,51 +1,49 @@
 body{
-	background: rgb(25, 30, 35);
+	font-family: "Graphik", sans-serif; 
 }
 a{
-	color: rgb(255, 255, 255);
+	color: #555555;
+	font-weight: 	bold;
 	text-decoration: none;
 }
+
 h1{
-	color: rgb(255, 255, 255);
+
 }
 .active{
-	border-radius: 3px;
 	border-bottom-style: solid;
-	border-color: rgb(75, 80, 225);
-}
-.page{
-	align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex: none;
-    width: 100%;
-    max-width: 1000px
+	border-color: #fff;
 }
 
-.header{
-	height: 150px;
-	position: relative;
-	background-image: linear-gradient(180deg, rgb(0, 100, 200), rgba(0, 0, 0, 0));
+.page{
+	align-self: center;
+    margin-left: -9px;
+    margin-right: auto;
+    margin-top: -10px;
+    flex: none;
+    width: 100vw;
 }
+
 .header-container{
-	font-family: sans-serif;
-	font-weight: 400;
-	background-color: rgba(0, 0, 0, .3);
 	position: sticky;
 	display: flex;
 	flex: nowrap;
+	top: 0;
 	align-content: center;
 	align-items: center;
 	justify-items: center;
 	height: 50px;
 	flex-direction: row;
+	background: black;
+	padding-left: 10px;
 }
 
 .header-name{
-	margin: 10px;
+	margin-left: 1vw;
 }
 
 .header-nav{
+	margin-left: 10vw;
 	display: flex;
 	flex: nowrap;
 	flex-direction: row;
@@ -59,12 +57,34 @@ h1{
 	margin: 10px;
 }
 
-.header-nav-list:hover{
-	border-radius: 3px;
-	background: rgb(75, 75, 75);
+.intro{
+	display: flex;
+	flex: nowrap;
+	flex-direction: row;
+	font-size: 20px;
 }
 
-.intro{
+.intro-text{
+	width: 50%;
+	flex-direction: column;
+	position: static;
+}
+.pleft{
 	position: relative;
+	padding-left: 10vw;
+	text-align: left;
+}
+
+.pright{
+	position: relative;
+	padding-right: 10vw;
+	text-align: right;
+}
+.f-color{
+	color: #999999;
+}
+
+.f-color:hover{
+	color:  #fff;
 }
 
